@@ -1,0 +1,16 @@
+.titulo-nav{
+    font-weight: 700;
+    font-size: 35px;
+    span{
+        font-weight: 900;
+    }
+}
+
+.link-nav{
+    font-weight: 400;
+    font-size: 20px;
+    transition: all .3s;
+}
+.link-nav:hover{
+    text-decoration: underline;
+}

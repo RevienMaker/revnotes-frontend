@@ -1,0 +1,23 @@
+.alerta{
+    border-left: 4px solid var(--azul-principal);
+    background-color: var(--azul-secundario);
+    color: var(--negro-claro);
+    padding: 10px 5px;
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.alerta-error{
+    border-left: 4px solid var(--rojo-principal);
+    background-color: var(--rojo-secundario);
+    color: var(--negro-claro);
+    padding: 10px 5px;
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 17px;
+}

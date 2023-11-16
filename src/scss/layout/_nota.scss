@@ -1,0 +1,43 @@
+.nota-container{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border: 2px solid var(--negro-claro);
+    background-color: var(--blanco-principal);
+    transition: all .3s;
+}
+.nota{
+    padding: 40px 10px 0 10px;
+
+    .titulo-nota{
+        padding: 0 10px 0 10px;
+        font-weight: 900;
+        font-size: 22px;
+    }
+    .contenido-nota{
+        font-size: 19px;
+    }
+}
+.nota:hover {
+    cursor: pointer;
+}
+.fecha-nota{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(68, 68, 68, 0.692);
+}
+.eliminar-nota-btn{
+    border-radius: 10px;
+    border: 2px solid var(--negro-claro);
+    padding: 8px;
+    background-color: rgba(255, 142, 136, 0.521);
+    svg{
+        width: 30px;
+    }
+
+    transition: all .3s;
+}
+.eliminar-nota-btn:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(255, 142, 136, 0.726);
+}

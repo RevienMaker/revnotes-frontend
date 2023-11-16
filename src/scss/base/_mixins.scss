@@ -1,0 +1,18 @@
+@mixin monitor {
+    @media (min-width: 1100px) {
+        @content;
+    }
+}
+@mixin laptop {
+    @media (min-width: 1080px) {
+        @content;
+    }
+}
+@mixin telefono {
+    @media (max-width: 599px) {
+        @content;
+    }
+}
+@mixin telefono-sm {
+    @media (max-width: 375px) {@content;}
+}

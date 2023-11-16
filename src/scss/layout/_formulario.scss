@@ -1,0 +1,123 @@
+.btn-nueva-nota {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: var(--blanco-principal);
+    border: solid var(--negro-claro) 2.3px;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 20px;
+
+    svg{
+        width: 30px;
+    }
+
+    transition: all .3s;
+}
+.btn-nueva-nota:hover{
+    cursor: pointer;
+}
+
+.formularioModal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+
+    background-color: rgba(0, 0, 0, 0.37);
+}
+
+.btn-cerrar-modal {
+    background-color: white;
+    padding: 5px 11px;
+    border-radius: 50%;
+}
+
+.input {
+    font-weight: 900;
+    font-size: 25px;
+    border: none;
+}
+
+.input-nota {
+    font-weight: 400;
+    font-size: 18px;
+    height: 400px;
+    resize: none;
+
+    @media (max-width: 390px) {
+        font-weight: 400;
+        font-size: 14px;
+    }
+    @media (max-width: 460px) {
+        font-weight: 400;
+        font-size: 18px;
+        height: 400px;
+    }
+}
+.input-fecha{
+    width: 30%;
+    font-weight: 700;
+    font-size: 18px;
+
+    @media (max-width: 390px) {
+        width: 100%;
+    }
+    
+    @media (max-width: 460px) {
+        width: 100%;
+    }
+}
+
+.button-submit-formulario{
+    border: 3px solid var(--negro-claro);
+    border-radius: 10px;
+    padding: 8px;
+}
+.btn-cerrar{
+    background-color: var(--rojo-secundario) !important;
+}
+.btn-listo{
+    background-color: var(--verde-secundario) !important;
+}
+
+.Modal {
+    background-color: var(--blanco-principal);
+    width: 70%;
+    height: fit-content;
+    border-radius: 20px;
+    border: solid var(--negro-claro) 3px;
+    display: flex;
+    // align-items: center;
+}
+@media (max-height: 760px) {
+    .input-nota {
+        height: 500px;
+    }
+}
+@media (max-width: 1480px) {
+    .Modal .input-nota {
+        height: 350px;
+    }
+}
+@media (max-width: 760px) {
+    .Modal {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .Modal {
+        width: 90%;
+    }
+
+    .Modal .input-nota {
+        height: 300px;
+    }
+}

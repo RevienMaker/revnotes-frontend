@@ -1,0 +1,22 @@
+html, body{
+    font-family: var(--font-principal);
+    background-color: var(--blanco-principal);
+}
+
+h1,h2,p{
+    color: var(--negro-principal);
+}
+
+input{
+    outline: none;
+    background-color: transparent;
+}
+textarea{
+    outline: none;
+    background-color: transparent;
+}
+
+.icon{
+    width: 32px;
+    color: var(--negro-principal);
+}

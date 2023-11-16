@@ -1,0 +1,20 @@
+
+//base
+@use './scss/base/variables';
+@use './scss/base/mixins';
+@use './scss/base/base';
+@use './scss/base/resets';
+
+//layout
+@use './scss/layout/registro';
+@use './scss/layout/navLogin';
+@use './scss/layout/alerta';
+@use './scss/layout/headerAdmin';
+@use './scss/layout/nota';
+@use './scss/layout/formulario';
+@use './scss/layout/editarPerfil';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

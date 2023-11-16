@@ -1,0 +1,29 @@
+.nav-admin{
+    border-bottom: 2px solid var(--negro-principal);
+    background-color: var(--blanco-principal);
+    position: sticky;
+    top: 0;
+}
+.link-nav{
+    padding: 3px 10px 3px 5px;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    border-radius: 0 3px 3px 0;
+
+    text-decoration: none;
+    
+    transition: all .3s;
+}
+.link-nav:hover{
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 2px solid var(--negro-claro);
+    // background-color: white;
+}
+.nav-mobil-icon{
+    width: 24px;
+    @media (max-width: 768px) {
+        width: 40px;
+    }
+}
