@@ -104,7 +104,7 @@ const Formulario = () => {
 				  	<input 
 						type="date" 
 						id="fecha" 
-						className="mt-2 input-fecha p-1"
+						className="mt-2 h-auto input-fecha p-1"
 						value={fecha}
 						onChange={(e) => {
 							formularioBtnSubmit()
