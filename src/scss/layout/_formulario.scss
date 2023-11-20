@@ -63,20 +63,21 @@
 .input-fecha{
     width: 30%;
     min-height: 30px;
-    height: max-content;
     border-radius: 10px;
     border: 3px solid var(--negro-claro);
     background-color: var(--blanco-principal);
     font-weight: 700;
     font-size: 18px;
 
+    -webkit-min-logical-width: calc(30% - 16px);
+
+    @media (max-width: 460px) {
+        -webkit-min-logical-width: calc(100% - 16px);
+    }
     @media (max-width: 390px) {
-        width: 100%;
+        -webkit-min-logical-width: calc(100% - 16px);
     }
     
-    @media (max-width: 460px) {
-        width: 100%;
-    }
 }
 
 .button-submit-formulario{

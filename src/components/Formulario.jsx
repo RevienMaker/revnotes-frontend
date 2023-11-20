@@ -101,11 +101,12 @@ const Formulario = () => {
 						}}
 					></textarea>
 
-				  	<input 
+					<input 
 						type="date" 
 						id="fecha" 
-						className="mt-2 input-fecha p-1"
-					  	value={fecha}
+						className="input-fecha mt-2 p-1"
+						value={fecha}
+						placeholder=""
 						onChange={(e) => {
 							formularioBtnSubmit()
 							setFecha(e.target.value)
