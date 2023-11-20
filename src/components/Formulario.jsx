@@ -101,17 +101,20 @@ const Formulario = () => {
 						}}
 					></textarea>
 
-					<input 
-						type="date" 
-						id="fecha" 
-						className="input-fecha mt-2 p-1"
-						value={fecha}
-						placeholder=""
-						onChange={(e) => {
-							formularioBtnSubmit()
-							setFecha(e.target.value)
-						}}
-					/>
+					<div className="flex flex-col">
+					  	<label className="input-fecha-titulo">Fecha:</label>
+						<input 
+							type="date" 
+							id="fecha" 
+							className="input-fecha mt-2 p-1"
+							value={fecha}
+							placeholder=""
+							onChange={(e) => {
+								formularioBtnSubmit()
+								setFecha(e.target.value)
+							}}
+						/>
+					</div>
 
 				  	<div className="w-full flex flex-row justify-end gap-3 items-center">
 					  	{msg && 
